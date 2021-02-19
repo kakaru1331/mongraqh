@@ -8,6 +8,6 @@ const typeDefs = gql`
     title:String
     author: String
   }
-`;
+`
 
-export default typeDefs;
+export default typeDefs

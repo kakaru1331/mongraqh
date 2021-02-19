@@ -1,16 +1,16 @@
 const resolvers = {
-    Query: {
-      books: () => [
-        {
-          title:'Title 1',
-          author : 'Author 1'
-        },
-        {
-          title:'Title 2',
-          author : 'Author 2'
-        }
-      ], 
+  Query: {
+    books: () => [
+      {
+        title: 'Title 1',
+        author: 'Author 1'
+      },
+      {
+        title: 'Title 2',
+        author: 'Author 2'
+      }
+    ]
   }
 }
- 
+
 export default resolvers
