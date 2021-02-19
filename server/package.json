@@ -1,11 +1,12 @@
 {
   "name": "mongraqh",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
   "scripts": {
     "start": "node app.ts",
-    "dev": "nodemon app.ts"
+    "dev": "nodemon app.ts",
+    "lint": "eslint **/*.ts",
+    "lint:fix": "eslint --fix **/*.ts"
   },
   "dependencies": {
     "apollo-server": "^2.21.0",
